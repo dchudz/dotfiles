@@ -11,6 +11,7 @@ brew bundle --file="$DOT/Brewfile"
 
 link() { mkdir -p "$(dirname "$2")"; ln -sfn "$DOT/$1" "$2"; }
 link bash_profile ~/.bash_profile
+link inputrc ~/.inputrc
 link gitignore_global ~/.gitignore_global
 link agents.md ~/.codex/AGENTS.md
 link claude/settings.json ~/.claude/settings.json

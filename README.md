@@ -37,6 +37,7 @@ Everything else (iTerm2 profile, trackpad, keyboard) stays at macOS defaults.
 | --- | --- |
 | `Brewfile` | `brew bundle` |
 | `bash_profile` | `~/.bash_profile` (symlink) |
+| `inputrc` | `~/.inputrc` (symlink): case-insensitive tab completion |
 | `gitconfig` | included from `~/.gitconfig` (git rewrites that file, so it cannot be a symlink) |
 | `gitignore_global` | `~/.gitignore_global` (symlink) |
 | `agents.md` | `~/.codex/AGENTS.md` (symlink); `~/.claude/CLAUDE.md` imports it with `@~/.codex/AGENTS.md` |
