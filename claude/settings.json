@@ -1,0 +1,17 @@
+{
+  "cleanupPeriodDays": 3650,
+  "permissions": {
+    "allow": [
+      "Workflow"
+    ]
+  },
+  "modelSettings": {
+    "claude-fable-5-1": {
+      "autoCompactWindow": 400000
+    }
+  },
+  "autoCompactWindow": 400000,
+  "skipWorkflowUsageWarning": true,
+  "theme": "light",
+  "switchModelsOnFlag": true
+}

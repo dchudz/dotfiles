@@ -1,0 +1,20 @@
+model = "gpt-5.6-sol"
+model_reasoning_effort = "high"
+
+[mcp_servers.playwright]
+command = "npx"
+args = ["@playwright/mcp@latest"]
+
+[mcp_servers.playwright.env]
+PLAYWRIGHT_MCP_ISOLATED = "true"
+
+[desktop]
+followUpQueueMode = "steer"
+preventSleepWhileRunning = true
+keepRemoteControlAwakeWhilePluggedIn = true
+notifications-turn-mode = "always"
+dock-icon-preference = "codex-system"
+conversationDetailMode = "STEPS_COMMANDS"
+
+[desktop.open-in-target-preferences]
+global = "pycharm"
