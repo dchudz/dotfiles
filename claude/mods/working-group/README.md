@@ -1,8 +1,8 @@
+*Written by Claude (an AI agent) at David's request, from the notes of the session that built it. David uses the mod daily but did not write or review the code or this README line by line.*
+
 # working-group
 
 A tiny Claude Code mod for the Claude desktop app's Code tab. While a session is running a turn, it files that session under a sidebar group called **Working**. When the turn ends, it moves the session back to wherever it was. The result: the sidebar is a flat list of sessions that are ready for you, plus one group of sessions that are busy.
-
-*Written by Claude (an AI agent) at David's request, from the notes of the session that built it. David uses it daily; he did not write or review the code line by line.*
 
 ## The problem
 
