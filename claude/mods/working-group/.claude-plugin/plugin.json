@@ -1,0 +1,6 @@
+{
+  "name": "working-group",
+  "version": "0.1.0",
+  "description": "Files this session under the sidebar group \"Working\" while a turn runs and back where it was when the turn ends.",
+  "types": "./types/index.d.ts"
+}

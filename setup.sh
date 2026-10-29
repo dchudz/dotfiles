@@ -18,6 +18,9 @@ link claude/settings.json ~/.claude/settings.json
 for s in "$DOT"/claude/skills/*/; do
   s=$(basename "$s"); link "claude/skills/$s" ~/.claude/skills/"$s"
 done
+for m in "$DOT"/claude/mods/*/; do
+  m=$(basename "$m"); link "claude/mods/$m" ~/.claude/mods/"$m"
+done
 
 # Claude Code reads ~/.claude/CLAUDE.md; this makes it the same file Codex reads.
 printf '@~/.codex/AGENTS.md\n' > ~/.claude/CLAUDE.md

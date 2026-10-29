@@ -1,8 +1,23 @@
 {
   "cleanupPeriodDays": 3650,
+  "env": {
+    "CLAUDE_CODE_PLUGIN_DIRS": "/Users/david/.claude/mods/working-group"
+  },
   "permissions": {
     "allow": [
-      "Workflow"
+      "Workflow",
+      "mcp__ccd_session_mgmt__get_session",
+      "mcp__ccd_sidebar__list_groups",
+      "mcp__ccd_sidebar__create_group",
+      "mcp__ccd_sidebar__move_sessions",
+      "Edit(~/.claude/settings.json)",
+      "Edit(~/dotfiles/claude/settings.json)"
+    ]
+  },
+  "autoMode": {
+    "allow": [
+      "$defaults",
+      "Editing the user's own Claude Code settings files, ~/.claude/settings.json and ~/dotfiles/claude/settings.json (the same file via symlink), by any tool including Bash: adding or changing permission rules, env vars, plugin directories, hooks and other settings. The user has explicitly authorized this standing permission."
     ]
   },
   "modelSettings": {
@@ -11,7 +26,16 @@
     }
   },
   "autoCompactWindow": 400000,
+  "autoMemoryDirectory": "~/.claude/memory",
   "skipWorkflowUsageWarning": true,
-  "theme": "light",
-  "switchModelsOnFlag": true
+  "theme": "dark",
+  "switchModelsOnFlag": true,
+  "agentPushNotifEnabled": true,
+  "model": "fable",
+  "spinnerTipsEnabled": false,
+  "prefersReducedMotion": true,
+  "promptSuggestionEnabled": false,
+  "terminalProgressBarEnabled": false,
+  "showTurnDuration": false,
+  "awaySummaryEnabled": false
 }
